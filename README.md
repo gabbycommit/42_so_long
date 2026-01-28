@@ -1,4 +1,5 @@
 # 42_so_long
+
 Welcome to my 42PG Pre Kick-off Project — **So Long**!
 
 This project focuses on developing a **2D grid-based game** where the player navigates through a map, collects all collectibles, and reaches the exit to win.
@@ -9,13 +10,12 @@ Since So Long is no longer part of the 42 Common Core, we are allowed to choose 
 
 For this project, I chose to develop the game using **Python and Pygame**.
 
-
 ---
 
-
-![GamePlay](Assets/gif/2.gif)
+![GamePlay](Assets/gif/1.gif)
 
 ## 🎮Game Rules
+
 - The map is made of **walls**, **empty spaces**, **collectibles**, **enemies**, an **exit key**, an **exit** and a **player**
 - Player can move **up, down, left and right**
 - Player must **collect all collectibles**, before the exit key appears on map
@@ -24,11 +24,10 @@ For this project, I chose to develop the game using **Python and Pygame**.
 - The game is **level-based**, meaning player must complete all levels to finis the game
 - The game is **over when player encounters an enemy**, and the current level can be restarted
 
-
 ---
 
-
 ## 🗺️Map Format
+
 The map can be created manually in a .ber file by following the rules below:
 | Symbol | Description |
 |--------|-------------|
@@ -52,67 +51,73 @@ The map can be created manually in a .ber file by following the rules below:
   - exactly one exit ('**E**')
   - enemies ('**T**') are optional
 
- ### Example map (.ber)
- ```txt
-  111111
-  1P0CK1
-  100001
-  1C0E01
-  111111
+### Example map (.ber)
+
+```txt
+ 111111
+ 1P0CK1
+ 100001
+ 1C0E01
+ 111111
 ```
 
-
 ---
-
 
 ## ⌨️Controls
-| Key | Action |
-|---|---|
-| W / ↑ | Move up |
-| S / ↓ | Move down |
-| A / ← | Move left |
-| D / → | Move right |
-| ESC | Quit game |
 
+| Key   | Action     |
+| ----- | ---------- |
+| W / ↑ | Move up    |
+| S / ↓ | Move down  |
+| A / ← | Move left  |
+| D / → | Move right |
+| ESC   | Quit game  |
 
 ---
-
 
 ## ⚙️Installation & Run
-  ### Environment Requirements
-  - Python 3.x
-  - Pygame
 
-  ### 📦Install Dependencies:
-  Install Pygame using pip:
-  ```bash
-  pip install pygame
-  ```
+### Environment Requirements
 
-  ### 📥Clone the repo
-  ```bash
-  git clone https://github.com/gabbycommit/42_so_long.git
-  ```
+- Python 3.x
+- Pygame
 
-  ### 📂Navigate into the project folder
-  ```bash
-  cd 42_so_long
-  ```
+### 📦Install Dependencies:
 
-  ### ▶️Run the Game
-  ```bash
-  python main.py
-  ```
+Install Pygame using pip:
+
+```bash
+pip install pygame
+```
+
+### 📥Clone the repo
+
+```bash
+git clone https://github.com/gabbycommit/42_so_long.git
+```
+
+### 📂Navigate into the project folder
+
+```bash
+cd 42_so_long
+```
+
+### ▶️Run the Game
+
+```bash
+python main.py
+```
 
 ---
-
 
 ## 📚 Resources & Credits
 
 ### 🎨 Sprites
+
 - https://arks.itch.io/dungeon-platform-tileset
 - https://brackeysgames.itch.io/brackeys-platformer-bundle
 
 ### 🎵Video Game Music
+
 - https://pixabay.com/music/search/classic%20video%20game/
 - https://www.chosic.com/free-music/games/
