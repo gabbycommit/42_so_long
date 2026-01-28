@@ -42,8 +42,13 @@ def render_win_state(window, fonts, gs):
         True,
         (207, 156, 6)
     )
-    exit_msg = fonts["bold_24"].render(
-        "Game habis liao, Bye Bye!",
+    exit_msg = fonts["normal"].render(
+        "You finished the game!",
+        True,
+        (207, 156, 6)
+    )
+    exit_msg2 = fonts["normal"].render(
+        "Thanks for playing",
         True,
         (207, 156, 6)
     )
@@ -55,7 +60,8 @@ def render_win_state(window, fonts, gs):
 
     level_rect = level.get_rect(center=(width / 2, height / 2 - 40))
     win_msg_rect = win_msg.get_rect(center=(width / 2, height / 2))
-    exit_msg_rect = exit_msg.get_rect(center=(width / 2, height / 2))
+    exit_msg_rect = exit_msg.get_rect(center=(width / 2, height / 2 - 40))
+    exit_msg2_rect = exit_msg2.get_rect(center=(width / 2, height / 2 + 40))
     hint_rect = hint.get_rect(center=(width / 2, height / 2 + 50))
 
     window.fill((0, 0, 0))
@@ -65,6 +71,7 @@ def render_win_state(window, fonts, gs):
         window.blit(win_msg, win_msg_rect)
     else:
         window.blit(exit_msg, exit_msg_rect)
+        window.blit(exit_msg2, exit_msg2_rect)
 
     if gs.show_hint and not gs.last_game:
         window.blit(hint, hint_rect)
@@ -74,12 +81,12 @@ def render_death_state(window, fonts, gs):
     width, height = window.get_size()
 
     death = fonts["bold_24"].render(
-        "Opps...you death",
+        "Oops...you're dead",
         False,
         (207, 156, 6)
     )
     hint = fonts["small"].render(
-        "Please press enter to restart current level...",
+        "Press Enter to restart the level or press Esc to quit...",
         False,
         (200, 200, 200)
     )
