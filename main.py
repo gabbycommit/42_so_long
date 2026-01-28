@@ -9,7 +9,7 @@ STATE_PLAYING = 1
 STATE_WIN = 2
 STATE_DEATH = 3
 STATE_DEATH_MSG = 4
-LEVELS = list(range(1, 5))
+LEVELS = list(range(1, 6))
 FPS = 60
 BGM_PLAYING = "./Assets/music/background.wav"
 

@@ -50,7 +50,7 @@ def is_valid_chr(game_map):
     for y, row in enumerate(game_map):
         for x, cell in enumerate(row):
             if cell not in valid_chr:
-                print("Error: invalid char input")
+                print(f"Error: invalid char input at {(y, x)}")
                 return False
             if cell == 'P':
                 player += 1
