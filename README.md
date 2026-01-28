@@ -13,6 +13,8 @@ For this project, I chose to develop the game using **Python and Pygame**.
 ---
 
 
+![GamePlay](Assets/gif/2.gif)
+
 ## 🎮Game Rules
 - The map is made of **walls**, **empty spaces**, **collectibles**, **enemies**, an **exit key**, an **exit** and a **player**
 - Player can move **up, down, left and right**
@@ -91,6 +93,7 @@ The map can be created manually in a .ber file by following the rules below:
   ```bash
   git clone https://github.com/gabbycommit/42_so_long.git
   ```
+
   ### 📂Navigate into the project folder
   ```bash
   cd 42_so_long
@@ -100,3 +103,16 @@ The map can be created manually in a .ber file by following the rules below:
   ```bash
   python main.py
   ```
+
+---
+
+
+## 📚 Resources & Credits
+
+### 🎨 Sprites
+- https://arks.itch.io/dungeon-platform-tileset
+- https://brackeysgames.itch.io/brackeys-platformer-bundle
+
+### 🎵Video Game Music
+- https://pixabay.com/music/search/classic%20video%20game/
+- https://www.chosic.com/free-music/games/
