@@ -13,6 +13,8 @@ For this project, I chose to develop the game using **Python and Pygame**.
 ---
 
 
+![GamePlay](Assets/gif/2.gif)
+
 ## 🎮Game Rules
 - The map is made of **walls**, **empty spaces**, **collectibles**, **enemies**, an **exit key**, an **exit** and a **player**
 - Player can move **up, down, left and right**
