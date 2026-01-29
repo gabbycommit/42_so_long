@@ -112,12 +112,17 @@ python main.py
 
 ## 📚 Resources & Credits
 
-### 🎨 Sprites
+### 🧩Pygame
+- https://www.geeksforgeeks.org/python/introduction-to-pygame/
 
+### 📐Sprite sheet and Metadata
+- https://www.codeandweb.com/texturepacker/tutorials/how-to-create-a-sprite-sheet
+
+### 🎨 Sprites
 - https://arks.itch.io/dungeon-platform-tileset
 - https://brackeysgames.itch.io/brackeys-platformer-bundle
+- https://free-tex-packer.com/app/
 
 ### 🎵Video Game Music
-
 - https://pixabay.com/music/search/classic%20video%20game/
 - https://www.chosic.com/free-music/games/
